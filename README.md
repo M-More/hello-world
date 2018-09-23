@@ -4,9 +4,26 @@
 
 > Nice to meet you!
 
-<i class="icon-share"></i> 发布：将当前的文稿生成固定链接，在网络上发布，分享
-<i class="icon-file"></i> 新建：开始撰写一篇新的文稿
-<i class="icon-trash"></i> 删除：删除当前的文稿
-<i class="icon-cloud"></i> 导出：将当前的文稿转化为 Markdown 文本或者 Html 格式，并导出到本地
-<i class="icon-reorder"></i> 列表：所有新增和过往的文稿都可以在这里查看、操作
-<i class="icon-pencil"></i> 模式：切换 普通/Vim/Emacs 编辑模式
+### 1. 制作一份待办事宜 [Todo 列表](https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#13-待办事宜-todo-列表)
+
+- [ ] 支持以 PDF 格式导出文稿
+- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率
+- [x] 新增 Todo 列表功能
+- [x] 修复 LaTex 公式渲染问题
+- [x] 新增 LaTex 公式编号功能
+
+### 2. 书写一个质能守恒公式[^LaTeX]
+
+$$E=mc^2$$
+
+### 3. 高亮一段代码[^code]
+
+```python
+@requires_authorization
+class SomeClass:
+    pass
+
+if __name__ == '__main__':
+    # A comment
+    print 'hello world'
+```
